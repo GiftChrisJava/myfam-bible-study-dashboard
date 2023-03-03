@@ -1,0 +1,153 @@
+.container {
+  display: flex;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+
+.post_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: #2f3020;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.h1 {
+  margin-top: -30px;
+  text-align: center;
+  color: #2f3020;
+}
+
+.post_input {
+  padding: 7px;
+  font-size: 12px;
+  margin: 5px;
+  width: 90%;
+  border-radius: 3px;
+  border: none;
+}
+
+.article1 {
+  width: 50%;
+  border-right: 2px dotted #eeedf1;
+}
+
+.article2 {
+  width: 80%;
+}
+
+.update {
+  margin-top: 40px;
+}
+.name_form {
+  display: block;
+  background-color: #2f3020;
+  padding: 5px 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.h4 {
+  color: #eeedf1;
+  margin: 5px auto;
+  text-align: center;
+}
+.name_input {
+  display: block;
+  padding: 5px;
+  font-size: 15px;
+  width: 90%;
+  border-radius: 5px;
+  border: none;
+}
+
+.id_nput {
+  display: block;
+  padding: 5px;
+  font-size: 15px;
+  width: 90%;
+  border-radius: 5px;
+  border: none;
+}
+.get_by_id {
+  background-color: #2f3020;
+  padding: 5px 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.btn {
+  background: #ff7247;
+  border: none;
+  border-radius: 2px;
+  padding: 8px;
+  font-weight: bold;
+  margin-top: 10px;
+  width: 30%;
+}
+
+.id_btn {
+  background: #ff7247;
+  border: none;
+  border-radius: 2px;
+  padding: 8px;
+  font-weight: bold;
+  margin: 10px auto;
+  width: 80%;
+}
+
+.post_btn {
+  background: #ff7247;
+  border: none;
+  border-radius: 2px;
+  padding: 8px;
+  font-weight: bold;
+  margin: 10px 5px;
+  width: 80%;
+}
+
+.update_btn_container {
+  display: inline-block;
+}
+
+.update_btn {
+  background: #ff7247;
+  border: none;
+  border-radius: 2px;
+  padding: 7px;
+  font-weight: bold;
+  margin: 5px 10px;
+  margin-left: 10px;
+  width: 40%;
+}
+
+.update_btn:hover {
+  color: #eeedf1;
+  font-weight: bolder;
+  transition-duration: 300ms;
+}
+
+.post_btn:hover {
+  color: #eeedf1;
+  font-weight: bolder;
+  transition-duration: 300ms;
+}
+
+.h4 {
+  color: #eeedf1;
+}
+
+.btn:hover {
+  color: #eeedf1;
+  width: 35%;
+  transition-duration: 300ms;
+}
+
+.id_btn:hover {
+  color: #eeedf1;
+  width: 85%;
+  transition-duration: 300ms;
+}
